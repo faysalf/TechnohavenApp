@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A6793482F3AD4D40027D20A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A67933C2F3AD4D40027D20A /* AppDelegate.swift */; };
+		8A6793492F3AD4D40027D20A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793432F3AD4D40027D20A /* SceneDelegate.swift */; };
+		8A67934A2F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793442F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld */; };
+		8A67934B2F3AD4D40027D20A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793452F3AD4D40027D20A /* ViewController.swift */; };
+		8A67934C2F3AD4D40027D20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A67933D2F3AD4D40027D20A /* Assets.xcassets */; };
+		8A67934E2F3AD4D40027D20A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6793402F3AD4D40027D20A /* LaunchScreen.storyboard */; };
+		8A67934F2F3AD4D40027D20A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6793422F3AD4D40027D20A /* Main.storyboard */; };
+		8A6793522F3AD4DC0027D20A /* TechnohavenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793502F3AD4DC0027D20A /* TechnohavenAppTests.swift */; };
+		8A6793562F3AD4DF0027D20A /* TechnohavenAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793532F3AD4DF0027D20A /* TechnohavenAppUITests.swift */; };
+		8A6793572F3AD4DF0027D20A /* TechnohavenAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793542F3AD4DF0027D20A /* TechnohavenAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A67931F2F3AD4CB0027D20A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A6792FD2F3AD4C90027D20A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6793042F3AD4C90027D20A;
+			remoteInfo = TechnohavenApp;
+		};
+		8A6793292F3AD4CB0027D20A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A6792FD2F3AD4C90027D20A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6793042F3AD4C90027D20A;
+			remoteInfo = TechnohavenApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A6793052F3AD4C90027D20A /* TechnohavenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnohavenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A67931E2F3AD4CB0027D20A /* TechnohavenAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechnohavenAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6793282F3AD4CB0027D20A /* TechnohavenAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechnohavenAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A67933C2F3AD4D40027D20A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A67933D2F3AD4D40027D20A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A67933E2F3AD4D40027D20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A67933F2F3AD4D40027D20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A6793412F3AD4D40027D20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A6793432F3AD4D40027D20A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A6793452F3AD4D40027D20A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A6793472F3AD4D40027D20A /* TechnohavenApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TechnohavenApp.xcdatamodel; sourceTree = "<group>"; };
+		8A6793502F3AD4DC0027D20A /* TechnohavenAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnohavenAppTests.swift; sourceTree = "<group>"; };
+		8A6793532F3AD4DF0027D20A /* TechnohavenAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnohavenAppUITests.swift; sourceTree = "<group>"; };
+		8A6793542F3AD4DF0027D20A /* TechnohavenAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnohavenAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A6793022F3AD4C90027D20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A67931B2F3AD4CB0027D20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6793252F3AD4CB0027D20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A6792FC2F3AD4C90027D20A = {
+			isa = PBXGroup;
+			children = (
+				8A6793462F3AD4D40027D20A /* TechnohavenApp */,
+				8A6793512F3AD4DC0027D20A /* TechnohavenAppTests */,
+				8A6793552F3AD4DF0027D20A /* TechnohavenAppUITests */,
+				8A6793062F3AD4C90027D20A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A6793062F3AD4C90027D20A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A6793052F3AD4C90027D20A /* TechnohavenApp.app */,
+				8A67931E2F3AD4CB0027D20A /* TechnohavenAppTests.xctest */,
+				8A6793282F3AD4CB0027D20A /* TechnohavenAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A6793462F3AD4D40027D20A /* TechnohavenApp */ = {
+			isa = PBXGroup;
+			children = (
+				8A67933C2F3AD4D40027D20A /* AppDelegate.swift */,
+				8A67933D2F3AD4D40027D20A /* Assets.xcassets */,
+				8A67933E2F3AD4D40027D20A /* Info.plist */,
+				8A6793402F3AD4D40027D20A /* LaunchScreen.storyboard */,
+				8A6793422F3AD4D40027D20A /* Main.storyboard */,
+				8A6793432F3AD4D40027D20A /* SceneDelegate.swift */,
+				8A6793442F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld */,
+				8A6793452F3AD4D40027D20A /* ViewController.swift */,
+			);
+			path = TechnohavenApp;
+			sourceTree = "<group>";
+		};
+		8A6793512F3AD4DC0027D20A /* TechnohavenAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6793502F3AD4DC0027D20A /* TechnohavenAppTests.swift */,
+			);
+			path = TechnohavenAppTests;
+			sourceTree = "<group>";
+		};
+		8A6793552F3AD4DF0027D20A /* TechnohavenAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6793532F3AD4DF0027D20A /* TechnohavenAppUITests.swift */,
+				8A6793542F3AD4DF0027D20A /* TechnohavenAppUITestsLaunchTests.swift */,
+			);
+			path = TechnohavenAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A6793042F3AD4C90027D20A /* TechnohavenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6793312F3AD4CB0027D20A /* Build configuration list for PBXNativeTarget "TechnohavenApp" */;
+			buildPhases = (
+				8A6793012F3AD4C90027D20A /* Sources */,
+				8A6793022F3AD4C90027D20A /* Frameworks */,
+				8A6793032F3AD4C90027D20A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechnohavenApp;
+			packageProductDependencies = (
+			);
+			productName = TechnohavenApp;
+			productReference = 8A6793052F3AD4C90027D20A /* TechnohavenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A67931D2F3AD4CB0027D20A /* TechnohavenAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6793362F3AD4CB0027D20A /* Build configuration list for PBXNativeTarget "TechnohavenAppTests" */;
+			buildPhases = (
+				8A67931A2F3AD4CB0027D20A /* Sources */,
+				8A67931B2F3AD4CB0027D20A /* Frameworks */,
+				8A67931C2F3AD4CB0027D20A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6793202F3AD4CB0027D20A /* PBXTargetDependency */,
+			);
+			name = TechnohavenAppTests;
+			packageProductDependencies = (
+			);
+			productName = TechnohavenAppTests;
+			productReference = 8A67931E2F3AD4CB0027D20A /* TechnohavenAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A6793272F3AD4CB0027D20A /* TechnohavenAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6793392F3AD4CB0027D20A /* Build configuration list for PBXNativeTarget "TechnohavenAppUITests" */;
+			buildPhases = (
+				8A6793242F3AD4CB0027D20A /* Sources */,
+				8A6793252F3AD4CB0027D20A /* Frameworks */,
+				8A6793262F3AD4CB0027D20A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A67932A2F3AD4CB0027D20A /* PBXTargetDependency */,
+			);
+			name = TechnohavenAppUITests;
+			packageProductDependencies = (
+			);
+			productName = TechnohavenAppUITests;
+			productReference = 8A6793282F3AD4CB0027D20A /* TechnohavenAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A6792FD2F3AD4C90027D20A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					8A6793042F3AD4C90027D20A = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					8A67931D2F3AD4CB0027D20A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 8A6793042F3AD4C90027D20A;
+					};
+					8A6793272F3AD4CB0027D20A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 8A6793042F3AD4C90027D20A;
+					};
+				};
+			};
+			buildConfigurationList = 8A6793002F3AD4C90027D20A /* Build configuration list for PBXProject "TechnohavenApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A6792FC2F3AD4C90027D20A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8A6793062F3AD4C90027D20A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A6793042F3AD4C90027D20A /* TechnohavenApp */,
+				8A67931D2F3AD4CB0027D20A /* TechnohavenAppTests */,
+				8A6793272F3AD4CB0027D20A /* TechnohavenAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A6793032F3AD4C90027D20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A67934C2F3AD4D40027D20A /* Assets.xcassets in Resources */,
+				8A67934E2F3AD4D40027D20A /* LaunchScreen.storyboard in Resources */,
+				8A67934F2F3AD4D40027D20A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A67931C2F3AD4CB0027D20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6793262F3AD4CB0027D20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A6793012F3AD4C90027D20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6793482F3AD4D40027D20A /* AppDelegate.swift in Sources */,
+				8A6793492F3AD4D40027D20A /* SceneDelegate.swift in Sources */,
+				8A67934A2F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld in Sources */,
+				8A67934B2F3AD4D40027D20A /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A67931A2F3AD4CB0027D20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6793522F3AD4DC0027D20A /* TechnohavenAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6793242F3AD4CB0027D20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6793562F3AD4DF0027D20A /* TechnohavenAppUITests.swift in Sources */,
+				8A6793572F3AD4DF0027D20A /* TechnohavenAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A6793202F3AD4CB0027D20A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6793042F3AD4C90027D20A /* TechnohavenApp */;
+			targetProxy = 8A67931F2F3AD4CB0027D20A /* PBXContainerItemProxy */;
+		};
+		8A67932A2F3AD4CB0027D20A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6793042F3AD4C90027D20A /* TechnohavenApp */;
+			targetProxy = 8A6793292F3AD4CB0027D20A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A6793402F3AD4D40027D20A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A67933F2F3AD4D40027D20A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8A6793422F3AD4D40027D20A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6793412F3AD4D40027D20A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A6793322F3AD4CB0027D20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXHAH5T735;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechnohavenApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faysal.TechnohavenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A6793332F3AD4CB0027D20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXHAH5T735;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechnohavenApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faysal.TechnohavenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A6793342F3AD4CB0027D20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A6793352F3AD4CB0027D20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A6793372F3AD4CB0027D20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXHAH5T735;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faysal.TechnohavenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechnohavenApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TechnohavenApp";
+			};
+			name = Debug;
+		};
+		8A6793382F3AD4CB0027D20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXHAH5T735;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faysal.TechnohavenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechnohavenApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TechnohavenApp";
+			};
+			name = Release;
+		};
+		8A67933A2F3AD4CB0027D20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXHAH5T735;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faysal.TechnohavenAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechnohavenApp;
+			};
+			name = Debug;
+		};
+		8A67933B2F3AD4CB0027D20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXHAH5T735;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faysal.TechnohavenAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechnohavenApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A6793002F3AD4C90027D20A /* Build configuration list for PBXProject "TechnohavenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6793342F3AD4CB0027D20A /* Debug */,
+				8A6793352F3AD4CB0027D20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6793312F3AD4CB0027D20A /* Build configuration list for PBXNativeTarget "TechnohavenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6793322F3AD4CB0027D20A /* Debug */,
+				8A6793332F3AD4CB0027D20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6793362F3AD4CB0027D20A /* Build configuration list for PBXNativeTarget "TechnohavenAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6793372F3AD4CB0027D20A /* Debug */,
+				8A6793382F3AD4CB0027D20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6793392F3AD4CB0027D20A /* Build configuration list for PBXNativeTarget "TechnohavenAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A67933A2F3AD4CB0027D20A /* Debug */,
+				8A67933B2F3AD4CB0027D20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A6793442F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A6793472F3AD4D40027D20A /* TechnohavenApp.xcdatamodel */,
+			);
+			currentVersion = 8A6793472F3AD4D40027D20A /* TechnohavenApp.xcdatamodel */;
+			path = TechnohavenApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A6792FD2F3AD4C90027D20A /* Project object */;
+}
