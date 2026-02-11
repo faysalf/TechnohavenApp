@@ -10,7 +10,7 @@
 		8A6793482F3AD4D40027D20A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A67933C2F3AD4D40027D20A /* AppDelegate.swift */; };
 		8A6793492F3AD4D40027D20A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793432F3AD4D40027D20A /* SceneDelegate.swift */; };
 		8A67934A2F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793442F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld */; };
-		8A67934B2F3AD4D40027D20A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793452F3AD4D40027D20A /* ViewController.swift */; };
+		8A67934B2F3AD4D40027D20A /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793452F3AD4D40027D20A /* AuthenticationViewController.swift */; };
 		8A67934C2F3AD4D40027D20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A67933D2F3AD4D40027D20A /* Assets.xcassets */; };
 		8A67934E2F3AD4D40027D20A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6793402F3AD4D40027D20A /* LaunchScreen.storyboard */; };
 		8A67934F2F3AD4D40027D20A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6793422F3AD4D40027D20A /* Main.storyboard */; };
@@ -46,7 +46,7 @@
 		8A67933F2F3AD4D40027D20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A6793412F3AD4D40027D20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A6793432F3AD4D40027D20A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A6793452F3AD4D40027D20A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A6793452F3AD4D40027D20A /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		8A6793472F3AD4D40027D20A /* TechnohavenApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TechnohavenApp.xcdatamodel; sourceTree = "<group>"; };
 		8A6793502F3AD4DC0027D20A /* TechnohavenAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnohavenAppTests.swift; sourceTree = "<group>"; };
 		8A6793532F3AD4DF0027D20A /* TechnohavenAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnohavenAppUITests.swift; sourceTree = "<group>"; };
@@ -101,14 +101,17 @@
 		8A6793462F3AD4D40027D20A /* TechnohavenApp */ = {
 			isa = PBXGroup;
 			children = (
-				8A67933C2F3AD4D40027D20A /* AppDelegate.swift */,
-				8A67933D2F3AD4D40027D20A /* Assets.xcassets */,
-				8A67933E2F3AD4D40027D20A /* Info.plist */,
+				8A70F3F02F3C3C64003CBA95 /* App */,
+				8A70F3F12F3C3C96003CBA95 /* Core */,
+				8A70F3F22F3C3CBC003CBA95 /* Network */,
+				8A70F3F52F3C3CD7003CBA95 /* Models */,
+				8A70F3F42F3C3CD1003CBA95 /* ViewModels */,
+				8A70F3F32F3C3CCC003CBA95 /* Views */,
+				8A70F3F62F3C3D71003CBA95 /* Resources */,
+				8A70F3F72F3C3D79003CBA95 /* SupportingFiles */,
 				8A6793402F3AD4D40027D20A /* LaunchScreen.storyboard */,
 				8A6793422F3AD4D40027D20A /* Main.storyboard */,
-				8A6793432F3AD4D40027D20A /* SceneDelegate.swift */,
-				8A6793442F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld */,
-				8A6793452F3AD4D40027D20A /* ViewController.swift */,
+				8A6793452F3AD4D40027D20A /* AuthenticationViewController.swift */,
 			);
 			path = TechnohavenApp;
 			sourceTree = "<group>";
@@ -128,6 +131,75 @@
 				8A6793542F3AD4DF0027D20A /* TechnohavenAppUITestsLaunchTests.swift */,
 			);
 			path = TechnohavenAppUITests;
+			sourceTree = "<group>";
+		};
+		8A70F3F02F3C3C64003CBA95 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8A67933C2F3AD4D40027D20A /* AppDelegate.swift */,
+				8A6793432F3AD4D40027D20A /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8A70F3F12F3C3C96003CBA95 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8A70F3F82F3C3EF8003CBA95 /* Persistance */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8A70F3F22F3C3CBC003CBA95 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8A70F3F32F3C3CCC003CBA95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8A70F3F42F3C3CD1003CBA95 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8A70F3F52F3C3CD7003CBA95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A70F3F62F3C3D71003CBA95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A67933D2F3AD4D40027D20A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A70F3F72F3C3D79003CBA95 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8A67933E2F3AD4D40027D20A /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8A70F3F82F3C3EF8003CBA95 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				8A6793442F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld */,
+			);
+			path = Persistance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +343,7 @@
 				8A6793482F3AD4D40027D20A /* AppDelegate.swift in Sources */,
 				8A6793492F3AD4D40027D20A /* SceneDelegate.swift in Sources */,
 				8A67934A2F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld in Sources */,
-				8A67934B2F3AD4D40027D20A /* ViewController.swift in Sources */,
+				8A67934B2F3AD4D40027D20A /* AuthenticationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +408,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WXHAH5T735;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TechnohavenApp/Info.plist;
+				INFOPLIST_FILE = TechnohavenApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -364,7 +436,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WXHAH5T735;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TechnohavenApp/Info.plist;
+				INFOPLIST_FILE = TechnohavenApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

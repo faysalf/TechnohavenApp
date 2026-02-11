@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
+//  AuthenticationViewController.swift
 //  TechnohavenApp
 //
-//  Created by Ema Akter on 10/2/26.
+//  Created by Faysal Ahmed on 10/2/26.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class AuthenticationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
