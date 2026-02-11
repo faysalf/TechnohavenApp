@@ -17,6 +17,8 @@ class LoginViewController: UIViewController {
     // MARK: - Variables
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var loginButton: UIButton!
+    
     var vm = LoginViewModel(service: AuthenticationService())
     var cancellables: Set<AnyCancellable> = []
     
@@ -33,6 +35,7 @@ class LoginViewController: UIViewController {
         vm.$errorMessage
             .sink {[weak self] errorMessage in
                 if let errorMessage {
+                    self?.loginButton.isEnabled = true
                     self?.showBottomPopup(withMessage: errorMessage)
                 }
             }
@@ -42,6 +45,7 @@ class LoginViewController: UIViewController {
             .sink { [weak self] isSucces in
                 if isSucces {
                     self?.showBottomPopup(isError: false, withMessage: "Login success!")
+                    UserDefaults.isLoggedin = true
                     
                     DispatchQueue.main.asyncAfter(deadline: .now()+1.0) {
                         self?.presentHomeVC()
@@ -64,12 +68,13 @@ class LoginViewController: UIViewController {
             return
         }
         
+        loginButton.isEnabled = false
         vm.login(email: email, password: password)
         
     }
     
     private func presentHomeVC() {
-        
+        sceneDelegate?.setRootViewController()
     }
     
     

@@ -50,36 +50,6 @@
             endingLineNumber = "25"
             landmarkName = "login(email:password:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "BCFE6FB0-729F-4740-8A4E-5C394B0591AB - be09b684a74c422d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (TechnohavenApp.AllUserLoginResponseModel) throws -&gt; TechnohavenApp.UserInfo in TechnohavenApp.AuthenticationService.login(email: Swift.String, password: Swift.String) -&gt; Combine.AnyPublisher&lt;TechnohavenApp.UserInfo, Swift.Error&gt;"
-                  moduleName = "TechnohavenApp.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/emaakter/Desktop/Practice/TechnohavenApp/TechnohavenApp/TechnohavenApp/Network/Services/AuthService/AuthService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25">
-               </Location>
-               <Location
-                  uuid = "BCFE6FB0-729F-4740-8A4E-5C394B0591AB - be09b684a74c422d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (TechnohavenApp.AllUserLoginResponseModel) throws -&gt; TechnohavenApp.UserInfo in TechnohavenApp.AuthenticationService.login(email: Swift.String, password: Swift.String) -&gt; Combine.AnyPublisher&lt;TechnohavenApp.UserInfo, Swift.Error&gt;"
-                  moduleName = "TechnohavenApp.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/emaakter/Desktop/Practice/TechnohavenApp/TechnohavenApp/TechnohavenApp/Network/Services/AuthService/AuthService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -111,6 +81,38 @@
             startingLineNumber = "29"
             endingLineNumber = "29"
             landmarkName = "request(fileName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13989A77-B1FB-45BF-A8C6-B666F2362CE8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnohavenApp/Views/AuthVC/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "presentHomeVC()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC52FF77-95D8-4B7F-90E6-05D20FC96997"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechnohavenApp/App/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "setRootViewController()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

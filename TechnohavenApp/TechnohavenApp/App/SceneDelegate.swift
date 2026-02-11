@@ -7,6 +7,8 @@
 
 import UIKit
 
+let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -16,7 +18,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        self.window = UIWindow(windowScene: windowScene)
+        
+        setRootViewController()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -51,5 +56,38 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
+}
+
+extension SceneDelegate {
+    
+    func setRootViewController(){
+        var rootVc: UIViewController = LoginViewController.instance()
+        
+        if UserDefaults.isLoggedin {
+            rootVc = HomeViewController.instance()
+        }
+        let nav = UINavigationController(rootViewController: rootVc)
+        setAppearence(nav)
+        
+        window?.rootViewController = nav
+        UIView.transition(with: window!, duration: 0.5, options: .transitionCrossDissolve, animations: nil, completion: nil)
+        window?.makeKeyAndVisible()
+        
+    }
+    
+    private func setAppearence(_ nav: UINavigationController) {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = .cardBg
+        appearance.titleTextAttributes = [
+            .foregroundColor: UIColor.textPrimary
+        ]
+        
+        nav.navigationBar.standardAppearance = appearance
+        nav.navigationBar.scrollEdgeAppearance = appearance
+        nav.navigationBar.compactAppearance = appearance
+    }
+    
+    
 }
 
