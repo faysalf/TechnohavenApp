@@ -8,6 +8,8 @@
 import Foundation
 import Combine
 
+var cachedTransactions: UserTransactionsModel?
+
 class TransactionService: TransactionServiceProtocol {
     let client = NetworkClient()
     
@@ -19,7 +21,13 @@ class TransactionService: TransactionServiceProtocol {
                     user.id == userId
                 }
                 
-                return user?.transactions ?? []
+                if let cachedTransactions {
+                    return cachedTransactions.transactions
+                }else {
+                    cachedTransactions = user
+                    return user?.transactions ?? []
+                }
+
             }
             .eraseToAnyPublisher()
         

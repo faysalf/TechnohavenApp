@@ -35,7 +35,7 @@ final class NetworkClient {
         
     }
     
-    func fetchData() -> AnyPublisher<AllUserTransactionModel, Error> {
+    func fetchData() -> AnyPublisher<UserTransactionsModel, Error> {
         Future { promise in
             do {
                 guard let url = Bundle.main.url(forResource: "login_mock_data", withExtension: "json") else {
@@ -45,7 +45,7 @@ final class NetworkClient {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .iso8601
-                let value = try decoder.decode(AllUserTransactionModel.self, from: data)
+                let value = try decoder.decode(UserTransactionsModel.self, from: data)
                 promise(.success(value))
                 
             } catch {

@@ -410,6 +410,108 @@
             </objects>
             <point key="canvasLocation" x="1581" y="4"/>
         </scene>
+        <!--Send Money View Controller-->
+        <scene sceneID="2S0-6r-x9a">
+            <objects>
+                <viewController storyboardIdentifier="SendMoneyViewControllerID" id="K2Y-CD-hcM" customClass="SendMoneyViewController" customModule="TechnohavenApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qUY-me-01d">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="woD-Bt-UVR">
+                                <rect key="frame" x="20" y="256" width="353" height="200"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="IyV-zE-qjg">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="112"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Receiver ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="47r-hs-78i">
+                                                <rect key="frame" x="0.0" y="0.0" width="353" height="48"/>
+                                                <color key="backgroundColor" name="cardBg"/>
+                                                <color key="textColor" name="textPrimary"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DMW-DP-dsI">
+                                                <rect key="frame" x="0.0" y="64" width="353" height="48"/>
+                                                <color key="backgroundColor" name="cardBg"/>
+                                                <color key="textColor" name="textPrimary"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="112" id="ZU3-Zk-AMi"/>
+                                        </constraints>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSJ-uP-pTL">
+                                        <rect key="frame" x="0.0" y="152" width="353" height="48"/>
+                                        <color key="backgroundColor" name="AccentColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="ZpR-yN-3X1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                        <color key="tintColor" name="appBg"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Send Money"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="loginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tbp-NE-VA0"/>
+                                            <action selector="sendMoneyButtonAction:" destination="K2Y-CD-hcM" eventType="touchUpInside" id="enq-wh-bUK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="gps-Za-BWY"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JiQ-Qu-TaL">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="59"/>
+                                <color key="backgroundColor" name="cardBg"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Send Money" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ray-rd-w1J">
+                                <rect key="frame" x="16" y="89" width="162" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" name="textPrimary"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qZu-hP-iVV"/>
+                        <color key="backgroundColor" name="appBg"/>
+                        <constraints>
+                            <constraint firstItem="JiQ-Qu-TaL" firstAttribute="top" secondItem="qUY-me-01d" secondAttribute="top" id="4nc-6c-ETy"/>
+                            <constraint firstItem="qZu-hP-iVV" firstAttribute="top" secondItem="JiQ-Qu-TaL" secondAttribute="bottom" id="5VJ-C2-i3W"/>
+                            <constraint firstItem="Ray-rd-w1J" firstAttribute="top" secondItem="JiQ-Qu-TaL" secondAttribute="bottom" constant="30" id="C3g-fR-gj9"/>
+                            <constraint firstItem="qZu-hP-iVV" firstAttribute="trailing" secondItem="woD-Bt-UVR" secondAttribute="trailing" constant="20" id="Mjp-sy-Ab5"/>
+                            <constraint firstItem="JiQ-Qu-TaL" firstAttribute="leading" secondItem="qUY-me-01d" secondAttribute="leading" id="Ozc-FI-JzH"/>
+                            <constraint firstItem="Ray-rd-w1J" firstAttribute="leading" secondItem="qZu-hP-iVV" secondAttribute="leading" constant="16" id="bgk-1G-IB0"/>
+                            <constraint firstItem="qZu-hP-iVV" firstAttribute="trailing" secondItem="JiQ-Qu-TaL" secondAttribute="trailing" id="cDa-1o-Hrb"/>
+                            <constraint firstItem="woD-Bt-UVR" firstAttribute="leading" secondItem="qZu-hP-iVV" secondAttribute="leading" constant="20" id="uJq-vl-xsJ"/>
+                            <constraint firstItem="woD-Bt-UVR" firstAttribute="centerY" secondItem="qUY-me-01d" secondAttribute="centerY" constant="-70" id="xdx-G0-u7v"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="amountTextField" destination="DMW-DP-dsI" id="gZ9-Mk-21s"/>
+                        <outlet property="receiverIdTextField" destination="47r-hs-78i" id="LF8-Eg-iq3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Zb-ZK-dK0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2306" y="4"/>
+        </scene>
     </scenes>
     <resources>
         <image name="clock.arrow.circlepath" catalog="system" width="128" height="119"/>

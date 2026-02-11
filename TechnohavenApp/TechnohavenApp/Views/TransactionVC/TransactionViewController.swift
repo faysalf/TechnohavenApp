@@ -59,12 +59,11 @@ class TransactionViewController: UIViewController {
     }
     
     private func fetch() {
-        if let userId = kcm.getUserId() {
-            vm.fetchTransaction(with: userId)
-        }else {
-            vm.logout()
-            sceneDelegate?.setRootViewController()
+        guard let userId = kcm.getUserId() else {
+            return
         }
+        vm.fetchTransaction(with: userId)
+    
     }
     
     private func reloadUIs() {

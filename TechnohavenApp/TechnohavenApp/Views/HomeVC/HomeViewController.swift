@@ -43,7 +43,8 @@ class HomeViewController: UIViewController {
     
     @IBAction
     func sendMoneyButtonAction(_ sender: UIButton) {
-        
+        let vc = SendMoneyViewController.instance()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction

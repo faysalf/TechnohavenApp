@@ -8,10 +8,10 @@
 import Foundation
 
 struct AllUserTransactionApiResponse: Codable {
-    var users: [AllUserTransactionModel]
+    var users: [UserTransactionsModel]
 }
 
-struct AllUserTransactionModel: Codable {
+struct UserTransactionsModel: Codable {
     let id: String
     var balance: Double
     var transactions: [TransactionModel]
