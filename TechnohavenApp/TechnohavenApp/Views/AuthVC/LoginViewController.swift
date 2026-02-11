@@ -22,7 +22,8 @@ class LoginViewController: UIViewController {
     var vm = LoginViewModel(service: AuthenticationService())
     var cancellables: Set<AnyCancellable> = []
     
-    override func viewDidLoad() {
+    override
+    func viewDidLoad() {
         super.viewDidLoad()
         
         configure()

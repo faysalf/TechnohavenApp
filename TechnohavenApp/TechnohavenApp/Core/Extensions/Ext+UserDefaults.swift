@@ -20,7 +20,7 @@ extension UserDefaults {
     
     static var userName: String {
         get { UserDefaults.standard.string(forKey: Keys.userName) ?? "N/A" }
-        set { UserDefaults.standard.set(newValue, forKey: Keys.login) }
+        set { UserDefaults.standard.set(newValue, forKey: Keys.userName) }
     }
     
     

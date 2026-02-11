@@ -14,7 +14,26 @@ class HomeViewController: UIViewController {
             .instantiateViewController(withIdentifier: "HomeViewControllerID") as! HomeViewController
     }
     
+    @IBOutlet weak var userNameLabel: UILabel!
+    @IBOutlet weak var currentBalanceLabel: UILabel!
+    @IBOutlet weak var accountIdLabel: UILabel!
     var vm = HomeViewModel()
+    var km = KeychainManager.shared
+    
+    // MARK: - Life Cycle
+    override
+    func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        setup()
+    }
+    
+    // setup
+    private func setup() {
+        userNameLabel.text = UserDefaults.userName
+        currentBalanceLabel.text = "Tk \(km.getUserAmount() ?? 0.0)"
+        accountIdLabel.text = "Account ID: \(km.getUserId() ?? "--")"
+    }
     
     @IBAction
     private func logoutAction(_ sender: UIButton) {
@@ -22,6 +41,15 @@ class HomeViewController: UIViewController {
         sceneDelegate?.setRootViewController()
     }
     
+    @IBAction
+    func sendMoneyButtonAction(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction
+    func transactionButtonAction(_ sender: UIButton) {
+        
+    }
     
     
 }
