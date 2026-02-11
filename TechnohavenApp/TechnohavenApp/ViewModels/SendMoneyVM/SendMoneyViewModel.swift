@@ -2,7 +2,7 @@
 //  SendMoneyViewModel.swift
 //  TechnohavenApp
 //
-//  Created by Ema Akter on 11/2/26.
+//  Created by Faysal Ahmed on 11/2/26.
 //
 
 import Foundation
@@ -14,15 +14,16 @@ class SendMoneyViewModel {
     @Published var transactionSuccesful: Bool = false
     @Published var errorMessage: String?
     private var cancellables = Set<AnyCancellable>()
-    
+    private var kcm = KeychainManager.shared
+
     init(service: SendMoneyServiceProtocol) {
         self.service = service
     }
     
     func sendMoney(to id: String, fromUser: String, amount: Double) {
         service.sendMoney(
-            from: fromUser,
-            to: id,
+            fromUserId: fromUser,
+            toUserId: id,
             amount: amount,
             title: "Send Money - Debitted"
         )
@@ -32,7 +33,9 @@ class SendMoneyViewModel {
             }
             
         } receiveValue: {[weak self] isSuccesful in
-            self?.transactionSuccesful = isSuccesful
+            guard let self else { return }
+            transactionSuccesful = isSuccesful
+            kcm.saveUserAmount((kcm.getUserAmount() ?? 0.0) - amount)
         }
         .store(in: &cancellables)
 

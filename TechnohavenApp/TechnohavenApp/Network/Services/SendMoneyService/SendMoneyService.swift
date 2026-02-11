@@ -2,7 +2,7 @@
 //  SendMoneyService.swift
 //  TechnohavenApp
 //
-//  Created by Ema Akter on 11/2/26.
+//  Created by Faysal Ahmed on 11/2/26.
 //
 
 import Foundation
@@ -13,8 +13,8 @@ final class SendMoneyService: SendMoneyServiceProtocol {
     private let client = NetworkClient()
     
     func sendMoney(
-        from userId: String,
-        to user: String,
+        fromUserId: String,
+        toUserId: String,
         amount: Double,
         title: String
     ) -> AnyPublisher<Bool, Error> {
@@ -23,11 +23,11 @@ final class SendMoneyService: SendMoneyServiceProtocol {
             .tryMap { (response: AllUserTransactionApiResponse) in
                 var response = response
 
-                guard let index = response.users.firstIndex(where: { $0.id == userId }) else {
+                guard let index = response.users.firstIndex(where: { $0.id == fromUserId }) else {
                     throw CustomError.error(message: "User not found", code: 404)
                 }
                 
-                var user = response.users[index]
+                var user = cachedTransactions ?? response.users[index]
                 
                 // Check balance
                 guard user.balance >= amount else {

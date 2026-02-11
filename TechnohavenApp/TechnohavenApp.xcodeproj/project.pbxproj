@@ -96,6 +96,16 @@
 		8AA4F3E42F3CE23E001612FC /* SendMoneyServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3E32F3CE23E001612FC /* SendMoneyServiceProtocol.swift */; };
 		8AA4F3E52F3CE23E001612FC /* SendMoneyServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3E32F3CE23E001612FC /* SendMoneyServiceProtocol.swift */; };
 		8AA4F3E62F3CE23E001612FC /* SendMoneyServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3E32F3CE23E001612FC /* SendMoneyServiceProtocol.swift */; };
+		8AA4F3E72F3CF55A001612FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793432F3AD4D40027D20A /* SceneDelegate.swift */; };
+		8AA4F3E82F3CF58A001612FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A67933D2F3AD4D40027D20A /* Assets.xcassets */; };
+		8AA4F3E92F3CF58A001612FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A67933D2F3AD4D40027D20A /* Assets.xcassets */; };
+		8AA4F3EA2F3CF5B6001612FC /* login_mock_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A70F4322F3C7FB1003CBA95 /* login_mock_data.json */; };
+		8AA4F3EB2F3CF5B6001612FC /* login_mock_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A70F4322F3C7FB1003CBA95 /* login_mock_data.json */; };
+		8AA4F3EC2F3CF5BC001612FC /* mock_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A70F41C2F3C6DCC003CBA95 /* mock_data.json */; };
+		8AA4F3ED2F3CF5BC001612FC /* mock_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A70F41C2F3C6DCC003CBA95 /* mock_data.json */; };
+		8AA4F3EE2F3CF622001612FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793432F3AD4D40027D20A /* SceneDelegate.swift */; };
+		8AA4F3EF2F3CF640001612FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A67933C2F3AD4D40027D20A /* AppDelegate.swift */; };
+		8AA4F3F02F3CF640001612FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A67933C2F3AD4D40027D20A /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -605,7 +615,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA4F3E82F3CF58A001612FC /* Assets.xcassets in Resources */,
+				8AA4F3EC2F3CF5BC001612FC /* mock_data.json in Resources */,
 				8AA4F3BB2F3CC432001612FC /* TransactionTvCell.xib in Resources */,
+				8AA4F3EA2F3CF5B6001612FC /* login_mock_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,7 +626,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA4F3E92F3CF58A001612FC /* Assets.xcassets in Resources */,
+				8AA4F3ED2F3CF5BC001612FC /* mock_data.json in Resources */,
 				8AA4F3C02F3CC432001612FC /* TransactionTvCell.xib in Resources */,
+				8AA4F3EB2F3CF5B6001612FC /* login_mock_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,6 +679,7 @@
 				8AA4F3DD2F3CE1C4001612FC /* SendMoneyViewModel.swift in Sources */,
 				8A70F4272F3C7307003CBA95 /* NetworkClient.swift in Sources */,
 				8A70F4112F3C6987003CBA95 /* LoginResponseModel.swift in Sources */,
+				8AA4F3EF2F3CF640001612FC /* AppDelegate.swift in Sources */,
 				8AA4F3A62F3CA353001612FC /* HomeViewModel.swift in Sources */,
 				8A70F3FC2F3C4EA0003CBA95 /* LoginViewController.swift in Sources */,
 				8AA4F3A12F3C9F4B001612FC /* KeychainManager.swift in Sources */,
@@ -670,6 +687,7 @@
 				8A70F42F2F3C75B7003CBA95 /* CustomError.swift in Sources */,
 				8AA4F39B2F3C9848001612FC /* Ext+UserDefaults.swift in Sources */,
 				8AA4F3CC2F3CC7FD001612FC /* TransactionServiceProtocol.swift in Sources */,
+				8AA4F3E72F3CF55A001612FC /* SceneDelegate.swift in Sources */,
 				8A70F4372F3C8B02003CBA95 /* Ext+UIViewController.swift in Sources */,
 				8A70F40E2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift in Sources */,
 				8A6793522F3AD4DC0027D20A /* TechnohavenAppTests.swift in Sources */,
@@ -696,6 +714,7 @@
 				8AA4F3A42F3CA353001612FC /* HomeViewModel.swift in Sources */,
 				8A70F4242F3C6E3E003CBA95 /* TransactionModel.swift in Sources */,
 				8A70F4022F3C5407003CBA95 /* LoginViewModel.swift in Sources */,
+				8AA4F3F02F3CF640001612FC /* AppDelegate.swift in Sources */,
 				8A70F4302F3C75B8003CBA95 /* CustomError.swift in Sources */,
 				8AA4F3DB2F3CE1C4001612FC /* SendMoneyViewModel.swift in Sources */,
 				8A70F4122F3C6987003CBA95 /* LoginResponseModel.swift in Sources */,
@@ -707,6 +726,7 @@
 				8AA4F39C2F3C9848001612FC /* Ext+UserDefaults.swift in Sources */,
 				8AA4F3A02F3C9F4B001612FC /* KeychainManager.swift in Sources */,
 				8AA4F3C82F3CC7F5001612FC /* TransactionService.swift in Sources */,
+				8AA4F3EE2F3CF622001612FC /* SceneDelegate.swift in Sources */,
 				8AA4F3E12F3CE235001612FC /* SendMoneyService.swift in Sources */,
 				8A70F3FD2F3C4EA0003CBA95 /* LoginViewController.swift in Sources */,
 				8AA4F3BF2F3CC432001612FC /* TransactionTvCell.swift in Sources */,

@@ -31,7 +31,7 @@ class TransactionViewModel {
                 }
                 
             } receiveValue: {[weak self] transactions in
-                self?.transactions = transactions
+                self?.transactions = transactions.sorted { $0.date > $1.date }
             }
             .store(in: &cancellables)
 

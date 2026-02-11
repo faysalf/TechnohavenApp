@@ -42,11 +42,11 @@ extension UIViewController {
         let label = UILabel()
         lastLabelPopUpShown?.removeFromSuperview()
         lastLabelPopUpShown = label
-        label.textColor = .textPrimary
+        label.textColor = UIColor.textPrimary
         label.font = UIFont.systemFont(ofSize: 16, weight: .regular)
         label.textAlignment = .center
         label.numberOfLines = 0
-        label.backgroundColor = isError ? .appError : .appSuccess
+        label.backgroundColor = isError ? UIColor.appError : UIColor.appSuccess
         
         label.text = message
         label.sizeToFit()
