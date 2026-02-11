@@ -56,7 +56,9 @@ class LoginViewModel {
     }
     
     private func saveUserInfo(user: UserInfo) {
-        
+        UserDefaults.userName = user.fullName
+        KeychainManager.shared.saveUserId(user.id)
+        KeychainManager.shared.saveUserAmount(user.balance)
     }
     
 }

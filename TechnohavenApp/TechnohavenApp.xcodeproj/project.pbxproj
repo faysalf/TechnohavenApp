@@ -57,6 +57,12 @@
 		8AA4F39A2F3C9848001612FC /* Ext+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3992F3C9848001612FC /* Ext+UserDefaults.swift */; };
 		8AA4F39B2F3C9848001612FC /* Ext+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3992F3C9848001612FC /* Ext+UserDefaults.swift */; };
 		8AA4F39C2F3C9848001612FC /* Ext+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3992F3C9848001612FC /* Ext+UserDefaults.swift */; };
+		8AA4F39F2F3C9F4B001612FC /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F39E2F3C9F4B001612FC /* KeychainManager.swift */; };
+		8AA4F3A02F3C9F4B001612FC /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F39E2F3C9F4B001612FC /* KeychainManager.swift */; };
+		8AA4F3A12F3C9F4B001612FC /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F39E2F3C9F4B001612FC /* KeychainManager.swift */; };
+		8AA4F3A42F3CA353001612FC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3A32F3CA353001612FC /* HomeViewModel.swift */; };
+		8AA4F3A52F3CA353001612FC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3A32F3CA353001612FC /* HomeViewModel.swift */; };
+		8AA4F3A62F3CA353001612FC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3A32F3CA353001612FC /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +111,8 @@
 		8A70F4352F3C8B02003CBA95 /* Ext+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIViewController.swift"; sourceTree = "<group>"; };
 		8AA4F3952F3C96B4001612FC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8AA4F3992F3C9848001612FC /* Ext+UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UserDefaults.swift"; sourceTree = "<group>"; };
+		8AA4F39E2F3C9F4B001612FC /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		8AA4F3A32F3CA353001612FC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +206,7 @@
 		8A70F3F12F3C3C96003CBA95 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				8AA4F39D2F3C9F26001612FC /* Utilities */,
 				8A70F4342F3C8AF1003CBA95 /* Extensions */,
 				8A70F3F82F3C3EF8003CBA95 /* Persistance */,
 			);
@@ -226,6 +235,7 @@
 		8A70F3F42F3C3CD1003CBA95 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				8AA4F3A22F3CA345001612FC /* HomeVM */,
 				8A70F3FE2F3C5339003CBA95 /* LoginVM */,
 			);
 			path = ViewModels;
@@ -332,6 +342,22 @@
 				8AA4F3952F3C96B4001612FC /* HomeViewController.swift */,
 			);
 			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		8AA4F39D2F3C9F26001612FC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4F39E2F3C9F4B001612FC /* KeychainManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8AA4F3A22F3CA345001612FC /* HomeVM */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4F3A32F3CA353001612FC /* HomeViewModel.swift */,
+			);
+			path = HomeVM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,11 +503,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A6793482F3AD4D40027D20A /* AppDelegate.swift in Sources */,
+				8AA4F3A52F3CA353001612FC /* HomeViewModel.swift in Sources */,
 				8A70F4252F3C6E3E003CBA95 /* TransactionModel.swift in Sources */,
 				8A70F4052F3C61FA003CBA95 /* AuthErrorEnum.swift in Sources */,
 				8A6793492F3AD4D40027D20A /* SceneDelegate.swift in Sources */,
 				8AA4F39A2F3C9848001612FC /* Ext+UserDefaults.swift in Sources */,
 				8A70F4362F3C8B02003CBA95 /* Ext+UIViewController.swift in Sources */,
+				8AA4F39F2F3C9F4B001612FC /* KeychainManager.swift in Sources */,
 				8AA4F3982F3C96B4001612FC /* HomeViewController.swift in Sources */,
 				8A70F4152F3C69DC003CBA95 /* AuthService.swift in Sources */,
 				8A70F40C2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift in Sources */,
@@ -502,7 +530,9 @@
 				8A70F4232F3C6E3E003CBA95 /* TransactionModel.swift in Sources */,
 				8A70F4272F3C7307003CBA95 /* NetworkClient.swift in Sources */,
 				8A70F4112F3C6987003CBA95 /* LoginResponseModel.swift in Sources */,
+				8AA4F3A62F3CA353001612FC /* HomeViewModel.swift in Sources */,
 				8A70F3FC2F3C4EA0003CBA95 /* LoginViewController.swift in Sources */,
+				8AA4F3A12F3C9F4B001612FC /* KeychainManager.swift in Sources */,
 				8A70F41F2F3C6E1E003CBA95 /* UserModel.swift in Sources */,
 				8A70F42F2F3C75B7003CBA95 /* CustomError.swift in Sources */,
 				8AA4F39B2F3C9848001612FC /* Ext+UserDefaults.swift in Sources */,
@@ -520,6 +550,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA4F3A42F3CA353001612FC /* HomeViewModel.swift in Sources */,
 				8A70F4242F3C6E3E003CBA95 /* TransactionModel.swift in Sources */,
 				8A70F4022F3C5407003CBA95 /* LoginViewModel.swift in Sources */,
 				8A70F4302F3C75B8003CBA95 /* CustomError.swift in Sources */,
@@ -527,6 +558,7 @@
 				8A70F4282F3C7307003CBA95 /* NetworkClient.swift in Sources */,
 				8AA4F3972F3C96B4001612FC /* HomeViewController.swift in Sources */,
 				8AA4F39C2F3C9848001612FC /* Ext+UserDefaults.swift in Sources */,
+				8AA4F3A02F3C9F4B001612FC /* KeychainManager.swift in Sources */,
 				8A70F3FD2F3C4EA0003CBA95 /* LoginViewController.swift in Sources */,
 				8A6793562F3AD4DF0027D20A /* TechnohavenAppUITests.swift in Sources */,
 				8A70F4382F3C8B02003CBA95 /* Ext+UIViewController.swift in Sources */,

@@ -14,10 +14,11 @@ class HomeViewController: UIViewController {
             .instantiateViewController(withIdentifier: "HomeViewControllerID") as! HomeViewController
     }
     
+    var vm = HomeViewModel()
     
     @IBAction
     private func logoutAction(_ sender: UIButton) {
-        UserDefaults.isLoggedin = false
+        vm.logout()
         sceneDelegate?.setRootViewController()
     }
     
