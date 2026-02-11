@@ -48,7 +48,8 @@ class HomeViewController: UIViewController {
     
     @IBAction
     func transactionButtonAction(_ sender: UIButton) {
-        
+        let vc = TransactionViewController.instance()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     

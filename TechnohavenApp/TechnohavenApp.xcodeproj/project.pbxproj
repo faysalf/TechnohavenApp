@@ -63,6 +63,27 @@
 		8AA4F3A42F3CA353001612FC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3A32F3CA353001612FC /* HomeViewModel.swift */; };
 		8AA4F3A52F3CA353001612FC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3A32F3CA353001612FC /* HomeViewModel.swift */; };
 		8AA4F3A62F3CA353001612FC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3A32F3CA353001612FC /* HomeViewModel.swift */; };
+		8AA4F3AD2F3CC379001612FC /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3AC2F3CC379001612FC /* TransactionViewController.swift */; };
+		8AA4F3AE2F3CC379001612FC /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3AC2F3CC379001612FC /* TransactionViewController.swift */; };
+		8AA4F3AF2F3CC379001612FC /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3AC2F3CC379001612FC /* TransactionViewController.swift */; };
+		8AA4F3BB2F3CC432001612FC /* TransactionTvCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4F3BA2F3CC432001612FC /* TransactionTvCell.xib */; };
+		8AA4F3BC2F3CC432001612FC /* TransactionTvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3B92F3CC432001612FC /* TransactionTvCell.swift */; };
+		8AA4F3BD2F3CC432001612FC /* TransactionTvCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4F3BA2F3CC432001612FC /* TransactionTvCell.xib */; };
+		8AA4F3BE2F3CC432001612FC /* TransactionTvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3B92F3CC432001612FC /* TransactionTvCell.swift */; };
+		8AA4F3BF2F3CC432001612FC /* TransactionTvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3B92F3CC432001612FC /* TransactionTvCell.swift */; };
+		8AA4F3C02F3CC432001612FC /* TransactionTvCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4F3BA2F3CC432001612FC /* TransactionTvCell.xib */; };
+		8AA4F3C32F3CC75D001612FC /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3C22F3CC75C001612FC /* TransactionViewModel.swift */; };
+		8AA4F3C42F3CC75D001612FC /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3C22F3CC75C001612FC /* TransactionViewModel.swift */; };
+		8AA4F3C52F3CC75D001612FC /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3C22F3CC75C001612FC /* TransactionViewModel.swift */; };
+		8AA4F3C82F3CC7F5001612FC /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3C72F3CC7F5001612FC /* TransactionService.swift */; };
+		8AA4F3C92F3CC7F5001612FC /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3C72F3CC7F5001612FC /* TransactionService.swift */; };
+		8AA4F3CA2F3CC7F5001612FC /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3C72F3CC7F5001612FC /* TransactionService.swift */; };
+		8AA4F3CC2F3CC7FD001612FC /* TransactionServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3CB2F3CC7FD001612FC /* TransactionServiceProtocol.swift */; };
+		8AA4F3CD2F3CC7FD001612FC /* TransactionServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3CB2F3CC7FD001612FC /* TransactionServiceProtocol.swift */; };
+		8AA4F3CE2F3CC7FD001612FC /* TransactionServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3CB2F3CC7FD001612FC /* TransactionServiceProtocol.swift */; };
+		8AA4F3D12F3CCE15001612FC /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3D02F3CCE15001612FC /* DateFormatter.swift */; };
+		8AA4F3D22F3CCE15001612FC /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3D02F3CCE15001612FC /* DateFormatter.swift */; };
+		8AA4F3D32F3CCE15001612FC /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4F3D02F3CCE15001612FC /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +134,13 @@
 		8AA4F3992F3C9848001612FC /* Ext+UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UserDefaults.swift"; sourceTree = "<group>"; };
 		8AA4F39E2F3C9F4B001612FC /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 		8AA4F3A32F3CA353001612FC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		8AA4F3AC2F3CC379001612FC /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		8AA4F3B92F3CC432001612FC /* TransactionTvCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTvCell.swift; sourceTree = "<group>"; };
+		8AA4F3BA2F3CC432001612FC /* TransactionTvCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionTvCell.xib; sourceTree = "<group>"; };
+		8AA4F3C22F3CC75C001612FC /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		8AA4F3C72F3CC7F5001612FC /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		8AA4F3CB2F3CC7FD001612FC /* TransactionServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionServiceProtocol.swift; sourceTree = "<group>"; };
+		8AA4F3D02F3CCE15001612FC /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +234,7 @@
 		8A70F3F12F3C3C96003CBA95 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				8AA4F3CF2F3CCDE9001612FC /* Helpers */,
 				8AA4F39D2F3C9F26001612FC /* Utilities */,
 				8A70F4342F3C8AF1003CBA95 /* Extensions */,
 				8A70F3F82F3C3EF8003CBA95 /* Persistance */,
@@ -226,6 +255,7 @@
 		8A70F3F32F3C3CCC003CBA95 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8AA4F3AB2F3CC366001612FC /* TransactionVC */,
 				8A70F4392F3C9604003CBA95 /* HomeVC */,
 				8A70F3F92F3C4E5A003CBA95 /* AuthVC */,
 			);
@@ -235,6 +265,7 @@
 		8A70F3F42F3C3CD1003CBA95 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				8AA4F3C12F3CC74D001612FC /* TransactionVM */,
 				8AA4F3A22F3CA345001612FC /* HomeVM */,
 				8A70F3FE2F3C5339003CBA95 /* LoginVM */,
 			);
@@ -305,6 +336,7 @@
 		8A70F4082F3C67FB003CBA95 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8AA4F3C62F3CC7DD001612FC /* TransactionService */,
 				8A70F40A2F3C680D003CBA95 /* AuthService */,
 			);
 			path = Services;
@@ -358,6 +390,49 @@
 				8AA4F3A32F3CA353001612FC /* HomeViewModel.swift */,
 			);
 			path = HomeVM;
+			sourceTree = "<group>";
+		};
+		8AA4F3AB2F3CC366001612FC /* TransactionVC */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4F3B02F3CC388001612FC /* Cells */,
+				8AA4F3AC2F3CC379001612FC /* TransactionViewController.swift */,
+			);
+			path = TransactionVC;
+			sourceTree = "<group>";
+		};
+		8AA4F3B02F3CC388001612FC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4F3B92F3CC432001612FC /* TransactionTvCell.swift */,
+				8AA4F3BA2F3CC432001612FC /* TransactionTvCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8AA4F3C12F3CC74D001612FC /* TransactionVM */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4F3C22F3CC75C001612FC /* TransactionViewModel.swift */,
+			);
+			path = TransactionVM;
+			sourceTree = "<group>";
+		};
+		8AA4F3C62F3CC7DD001612FC /* TransactionService */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4F3C72F3CC7F5001612FC /* TransactionService.swift */,
+				8AA4F3CB2F3CC7FD001612FC /* TransactionServiceProtocol.swift */,
+			);
+			path = TransactionService;
+			sourceTree = "<group>";
+		};
+		8AA4F3CF2F3CCDE9001612FC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8AA4F3D02F3CCE15001612FC /* DateFormatter.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -474,6 +549,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A67934C2F3AD4D40027D20A /* Assets.xcassets in Resources */,
+				8AA4F3BD2F3CC432001612FC /* TransactionTvCell.xib in Resources */,
 				8A70F41D2F3C6DD0003CBA95 /* mock_data.json in Resources */,
 				8A67934E2F3AD4D40027D20A /* LaunchScreen.storyboard in Resources */,
 				8A67934F2F3AD4D40027D20A /* Main.storyboard in Resources */,
@@ -485,6 +561,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA4F3BB2F3CC432001612FC /* TransactionTvCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +569,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA4F3C02F3CC432001612FC /* TransactionTvCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,11 +580,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA4F3D12F3CCE15001612FC /* DateFormatter.swift in Sources */,
 				8A6793482F3AD4D40027D20A /* AppDelegate.swift in Sources */,
 				8AA4F3A52F3CA353001612FC /* HomeViewModel.swift in Sources */,
 				8A70F4252F3C6E3E003CBA95 /* TransactionModel.swift in Sources */,
+				8AA4F3AE2F3CC379001612FC /* TransactionViewController.swift in Sources */,
 				8A70F4052F3C61FA003CBA95 /* AuthErrorEnum.swift in Sources */,
 				8A6793492F3AD4D40027D20A /* SceneDelegate.swift in Sources */,
+				8AA4F3CA2F3CC7F5001612FC /* TransactionService.swift in Sources */,
 				8AA4F39A2F3C9848001612FC /* Ext+UserDefaults.swift in Sources */,
 				8A70F4362F3C8B02003CBA95 /* Ext+UIViewController.swift in Sources */,
 				8AA4F39F2F3C9F4B001612FC /* KeychainManager.swift in Sources */,
@@ -514,12 +595,15 @@
 				8A70F4152F3C69DC003CBA95 /* AuthService.swift in Sources */,
 				8A70F40C2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift in Sources */,
 				8A70F4312F3C75B8003CBA95 /* CustomError.swift in Sources */,
+				8AA4F3CE2F3CC7FD001612FC /* TransactionServiceProtocol.swift in Sources */,
 				8A70F4102F3C6987003CBA95 /* LoginResponseModel.swift in Sources */,
 				8A67934A2F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld in Sources */,
 				8A70F4002F3C5407003CBA95 /* LoginViewModel.swift in Sources */,
 				8A70F4202F3C6E1E003CBA95 /* UserModel.swift in Sources */,
 				8A70F3FB2F3C4EA0003CBA95 /* LoginViewController.swift in Sources */,
+				8AA4F3BE2F3CC432001612FC /* TransactionTvCell.swift in Sources */,
 				8A70F4292F3C7307003CBA95 /* NetworkClient.swift in Sources */,
+				8AA4F3C52F3CC75D001612FC /* TransactionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,12 +620,18 @@
 				8A70F41F2F3C6E1E003CBA95 /* UserModel.swift in Sources */,
 				8A70F42F2F3C75B7003CBA95 /* CustomError.swift in Sources */,
 				8AA4F39B2F3C9848001612FC /* Ext+UserDefaults.swift in Sources */,
+				8AA4F3CC2F3CC7FD001612FC /* TransactionServiceProtocol.swift in Sources */,
 				8A70F4372F3C8B02003CBA95 /* Ext+UIViewController.swift in Sources */,
 				8A70F40E2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift in Sources */,
 				8A6793522F3AD4DC0027D20A /* TechnohavenAppTests.swift in Sources */,
 				8A70F4012F3C5407003CBA95 /* LoginViewModel.swift in Sources */,
 				8A70F4062F3C61FA003CBA95 /* AuthErrorEnum.swift in Sources */,
+				8AA4F3AF2F3CC379001612FC /* TransactionViewController.swift in Sources */,
+				8AA4F3D22F3CCE15001612FC /* DateFormatter.swift in Sources */,
+				8AA4F3C42F3CC75D001612FC /* TransactionViewModel.swift in Sources */,
 				8AA4F3962F3C96B4001612FC /* HomeViewController.swift in Sources */,
+				8AA4F3BC2F3CC432001612FC /* TransactionTvCell.swift in Sources */,
+				8AA4F3C92F3CC7F5001612FC /* TransactionService.swift in Sources */,
 				8A70F4162F3C69DC003CBA95 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,23 +640,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA4F3CD2F3CC7FD001612FC /* TransactionServiceProtocol.swift in Sources */,
 				8AA4F3A42F3CA353001612FC /* HomeViewModel.swift in Sources */,
 				8A70F4242F3C6E3E003CBA95 /* TransactionModel.swift in Sources */,
 				8A70F4022F3C5407003CBA95 /* LoginViewModel.swift in Sources */,
 				8A70F4302F3C75B8003CBA95 /* CustomError.swift in Sources */,
 				8A70F4122F3C6987003CBA95 /* LoginResponseModel.swift in Sources */,
 				8A70F4282F3C7307003CBA95 /* NetworkClient.swift in Sources */,
+				8AA4F3D32F3CCE15001612FC /* DateFormatter.swift in Sources */,
 				8AA4F3972F3C96B4001612FC /* HomeViewController.swift in Sources */,
 				8AA4F39C2F3C9848001612FC /* Ext+UserDefaults.swift in Sources */,
 				8AA4F3A02F3C9F4B001612FC /* KeychainManager.swift in Sources */,
+				8AA4F3C82F3CC7F5001612FC /* TransactionService.swift in Sources */,
 				8A70F3FD2F3C4EA0003CBA95 /* LoginViewController.swift in Sources */,
+				8AA4F3BF2F3CC432001612FC /* TransactionTvCell.swift in Sources */,
 				8A6793562F3AD4DF0027D20A /* TechnohavenAppUITests.swift in Sources */,
 				8A70F4382F3C8B02003CBA95 /* Ext+UIViewController.swift in Sources */,
 				8A70F40D2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift in Sources */,
+				8AA4F3AD2F3CC379001612FC /* TransactionViewController.swift in Sources */,
 				8A70F4072F3C61FA003CBA95 /* AuthErrorEnum.swift in Sources */,
 				8A6793572F3AD4DF0027D20A /* TechnohavenAppUITestsLaunchTests.swift in Sources */,
 				8A70F4212F3C6E1E003CBA95 /* UserModel.swift in Sources */,
 				8A70F4142F3C69DC003CBA95 /* AuthService.swift in Sources */,
+				8AA4F3C32F3CC75D001612FC /* TransactionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

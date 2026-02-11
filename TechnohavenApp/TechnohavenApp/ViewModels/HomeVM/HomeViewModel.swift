@@ -9,15 +9,6 @@ import Foundation
 
 class HomeViewModel {
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
     func logout() {
         UserDefaults.isLoggedin = false
         UserDefaults.userName = ""
