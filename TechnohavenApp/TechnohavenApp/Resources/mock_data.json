@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "TH-Bank-User-1111",
+      "balance": 60000.0,
+      "transactions": [
+        {
+          "id": "1",
+          "date": "2026-02-01T10:00:00Z",
+          "title": "Salary-Credited",
+          "amount": 60500.0
+        },
+        {
+          "id": "2",
+          "date": "2026-02-05T12:30:00Z",
+          "title": "Groceries-Debitted",
+          "amount": -500.0
+        }
+      ]
+    },
+    {
+      "id": "TH-Bank-User-2222",
+      "balance": 20000000.0,
+      "transactions": []
+    }
+  ]
+}
+

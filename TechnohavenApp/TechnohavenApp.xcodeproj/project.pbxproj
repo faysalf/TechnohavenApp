@@ -10,13 +10,47 @@
 		8A6793482F3AD4D40027D20A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A67933C2F3AD4D40027D20A /* AppDelegate.swift */; };
 		8A6793492F3AD4D40027D20A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793432F3AD4D40027D20A /* SceneDelegate.swift */; };
 		8A67934A2F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793442F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld */; };
-		8A67934B2F3AD4D40027D20A /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793452F3AD4D40027D20A /* AuthenticationViewController.swift */; };
 		8A67934C2F3AD4D40027D20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A67933D2F3AD4D40027D20A /* Assets.xcassets */; };
 		8A67934E2F3AD4D40027D20A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6793402F3AD4D40027D20A /* LaunchScreen.storyboard */; };
 		8A67934F2F3AD4D40027D20A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6793422F3AD4D40027D20A /* Main.storyboard */; };
 		8A6793522F3AD4DC0027D20A /* TechnohavenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793502F3AD4DC0027D20A /* TechnohavenAppTests.swift */; };
 		8A6793562F3AD4DF0027D20A /* TechnohavenAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793532F3AD4DF0027D20A /* TechnohavenAppUITests.swift */; };
 		8A6793572F3AD4DF0027D20A /* TechnohavenAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6793542F3AD4DF0027D20A /* TechnohavenAppUITestsLaunchTests.swift */; };
+		8A70F3FB2F3C4EA0003CBA95 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F3FA2F3C4EA0003CBA95 /* LoginViewController.swift */; };
+		8A70F3FC2F3C4EA0003CBA95 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F3FA2F3C4EA0003CBA95 /* LoginViewController.swift */; };
+		8A70F3FD2F3C4EA0003CBA95 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F3FA2F3C4EA0003CBA95 /* LoginViewController.swift */; };
+		8A70F4002F3C5407003CBA95 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F3FF2F3C5407003CBA95 /* LoginViewModel.swift */; };
+		8A70F4012F3C5407003CBA95 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F3FF2F3C5407003CBA95 /* LoginViewModel.swift */; };
+		8A70F4022F3C5407003CBA95 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F3FF2F3C5407003CBA95 /* LoginViewModel.swift */; };
+		8A70F4052F3C61FA003CBA95 /* AuthErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4042F3C61FA003CBA95 /* AuthErrorEnum.swift */; };
+		8A70F4062F3C61FA003CBA95 /* AuthErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4042F3C61FA003CBA95 /* AuthErrorEnum.swift */; };
+		8A70F4072F3C61FA003CBA95 /* AuthErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4042F3C61FA003CBA95 /* AuthErrorEnum.swift */; };
+		8A70F40C2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F40B2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift */; };
+		8A70F40D2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F40B2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift */; };
+		8A70F40E2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F40B2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift */; };
+		8A70F4102F3C6987003CBA95 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F40F2F3C6987003CBA95 /* LoginResponseModel.swift */; };
+		8A70F4112F3C6987003CBA95 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F40F2F3C6987003CBA95 /* LoginResponseModel.swift */; };
+		8A70F4122F3C6987003CBA95 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F40F2F3C6987003CBA95 /* LoginResponseModel.swift */; };
+		8A70F4142F3C69DC003CBA95 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4132F3C69DC003CBA95 /* AuthService.swift */; };
+		8A70F4152F3C69DC003CBA95 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4132F3C69DC003CBA95 /* AuthService.swift */; };
+		8A70F4162F3C69DC003CBA95 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4132F3C69DC003CBA95 /* AuthService.swift */; };
+		8A70F41D2F3C6DD0003CBA95 /* mock_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A70F41C2F3C6DCC003CBA95 /* mock_data.json */; };
+		8A70F41F2F3C6E1E003CBA95 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F41E2F3C6E1E003CBA95 /* UserModel.swift */; };
+		8A70F4202F3C6E1E003CBA95 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F41E2F3C6E1E003CBA95 /* UserModel.swift */; };
+		8A70F4212F3C6E1E003CBA95 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F41E2F3C6E1E003CBA95 /* UserModel.swift */; };
+		8A70F4232F3C6E3E003CBA95 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4222F3C6E3E003CBA95 /* TransactionModel.swift */; };
+		8A70F4242F3C6E3E003CBA95 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4222F3C6E3E003CBA95 /* TransactionModel.swift */; };
+		8A70F4252F3C6E3E003CBA95 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4222F3C6E3E003CBA95 /* TransactionModel.swift */; };
+		8A70F4272F3C7307003CBA95 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4262F3C7307003CBA95 /* NetworkClient.swift */; };
+		8A70F4282F3C7307003CBA95 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4262F3C7307003CBA95 /* NetworkClient.swift */; };
+		8A70F4292F3C7307003CBA95 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4262F3C7307003CBA95 /* NetworkClient.swift */; };
+		8A70F42F2F3C75B7003CBA95 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F42E2F3C75B7003CBA95 /* CustomError.swift */; };
+		8A70F4302F3C75B8003CBA95 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F42E2F3C75B7003CBA95 /* CustomError.swift */; };
+		8A70F4312F3C75B8003CBA95 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F42E2F3C75B7003CBA95 /* CustomError.swift */; };
+		8A70F4332F3C7FF4003CBA95 /* login_mock_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A70F4322F3C7FB1003CBA95 /* login_mock_data.json */; };
+		8A70F4362F3C8B02003CBA95 /* Ext+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4352F3C8B02003CBA95 /* Ext+UIViewController.swift */; };
+		8A70F4372F3C8B02003CBA95 /* Ext+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4352F3C8B02003CBA95 /* Ext+UIViewController.swift */; };
+		8A70F4382F3C8B02003CBA95 /* Ext+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A70F4352F3C8B02003CBA95 /* Ext+UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +80,23 @@
 		8A67933F2F3AD4D40027D20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A6793412F3AD4D40027D20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A6793432F3AD4D40027D20A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A6793452F3AD4D40027D20A /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		8A6793472F3AD4D40027D20A /* TechnohavenApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TechnohavenApp.xcdatamodel; sourceTree = "<group>"; };
 		8A6793502F3AD4DC0027D20A /* TechnohavenAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnohavenAppTests.swift; sourceTree = "<group>"; };
 		8A6793532F3AD4DF0027D20A /* TechnohavenAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnohavenAppUITests.swift; sourceTree = "<group>"; };
 		8A6793542F3AD4DF0027D20A /* TechnohavenAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnohavenAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8A70F3FA2F3C4EA0003CBA95 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8A70F3FF2F3C5407003CBA95 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8A70F4042F3C61FA003CBA95 /* AuthErrorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthErrorEnum.swift; sourceTree = "<group>"; };
+		8A70F40B2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationServiceProtocol.swift; sourceTree = "<group>"; };
+		8A70F40F2F3C6987003CBA95 /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
+		8A70F4132F3C69DC003CBA95 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		8A70F41C2F3C6DCC003CBA95 /* mock_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock_data.json; sourceTree = "<group>"; };
+		8A70F41E2F3C6E1E003CBA95 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8A70F4222F3C6E3E003CBA95 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		8A70F4262F3C7307003CBA95 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		8A70F42E2F3C75B7003CBA95 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		8A70F4322F3C7FB1003CBA95 /* login_mock_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = login_mock_data.json; sourceTree = "<group>"; };
+		8A70F4352F3C8B02003CBA95 /* Ext+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +157,6 @@
 				8A70F3F72F3C3D79003CBA95 /* SupportingFiles */,
 				8A6793402F3AD4D40027D20A /* LaunchScreen.storyboard */,
 				8A6793422F3AD4D40027D20A /* Main.storyboard */,
-				8A6793452F3AD4D40027D20A /* AuthenticationViewController.swift */,
 			);
 			path = TechnohavenApp;
 			sourceTree = "<group>";
@@ -145,6 +190,7 @@
 		8A70F3F12F3C3C96003CBA95 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				8A70F4342F3C8AF1003CBA95 /* Extensions */,
 				8A70F3F82F3C3EF8003CBA95 /* Persistance */,
 			);
 			path = Core;
@@ -153,6 +199,9 @@
 		8A70F3F22F3C3CBC003CBA95 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				8A70F4092F3C6802003CBA95 /* Clients */,
+				8A70F4082F3C67FB003CBA95 /* Services */,
+				8A70F4032F3C61D1003CBA95 /* ErrorHandler */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -160,6 +209,7 @@
 		8A70F3F32F3C3CCC003CBA95 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8A70F3F92F3C4E5A003CBA95 /* Auth */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,6 +217,7 @@
 		8A70F3F42F3C3CD1003CBA95 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				8A70F3FE2F3C5339003CBA95 /* LoginVM */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -174,6 +225,9 @@
 		8A70F3F52F3C3CD7003CBA95 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8A70F40F2F3C6987003CBA95 /* LoginResponseModel.swift */,
+				8A70F41E2F3C6E1E003CBA95 /* UserModel.swift */,
+				8A70F4222F3C6E3E003CBA95 /* TransactionModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,6 +235,8 @@
 		8A70F3F62F3C3D71003CBA95 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8A70F4322F3C7FB1003CBA95 /* login_mock_data.json */,
+				8A70F41C2F3C6DCC003CBA95 /* mock_data.json */,
 				8A67933D2F3AD4D40027D20A /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -200,6 +256,64 @@
 				8A6793442F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld */,
 			);
 			path = Persistance;
+			sourceTree = "<group>";
+		};
+		8A70F3F92F3C4E5A003CBA95 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8A70F3FA2F3C4EA0003CBA95 /* LoginViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		8A70F3FE2F3C5339003CBA95 /* LoginVM */ = {
+			isa = PBXGroup;
+			children = (
+				8A70F3FF2F3C5407003CBA95 /* LoginViewModel.swift */,
+			);
+			path = LoginVM;
+			sourceTree = "<group>";
+		};
+		8A70F4032F3C61D1003CBA95 /* ErrorHandler */ = {
+			isa = PBXGroup;
+			children = (
+				8A70F4042F3C61FA003CBA95 /* AuthErrorEnum.swift */,
+				8A70F42E2F3C75B7003CBA95 /* CustomError.swift */,
+			);
+			path = ErrorHandler;
+			sourceTree = "<group>";
+		};
+		8A70F4082F3C67FB003CBA95 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8A70F40A2F3C680D003CBA95 /* AuthService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8A70F4092F3C6802003CBA95 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				8A70F4262F3C7307003CBA95 /* NetworkClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		8A70F40A2F3C680D003CBA95 /* AuthService */ = {
+			isa = PBXGroup;
+			children = (
+				8A70F40B2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift */,
+				8A70F4132F3C69DC003CBA95 /* AuthService.swift */,
+			);
+			path = AuthService;
+			sourceTree = "<group>";
+		};
+		8A70F4342F3C8AF1003CBA95 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A70F4352F3C8B02003CBA95 /* Ext+UIViewController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +410,8 @@
 			);
 			mainGroup = 8A6792FC2F3AD4C90027D20A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8A6793062F3AD4C90027D20A /* Products */;
 			projectDirPath = "";
@@ -314,8 +430,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A67934C2F3AD4D40027D20A /* Assets.xcassets in Resources */,
+				8A70F41D2F3C6DD0003CBA95 /* mock_data.json in Resources */,
 				8A67934E2F3AD4D40027D20A /* LaunchScreen.storyboard in Resources */,
 				8A67934F2F3AD4D40027D20A /* Main.storyboard in Resources */,
+				8A70F4332F3C7FF4003CBA95 /* login_mock_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,9 +459,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A6793482F3AD4D40027D20A /* AppDelegate.swift in Sources */,
+				8A70F4252F3C6E3E003CBA95 /* TransactionModel.swift in Sources */,
+				8A70F4052F3C61FA003CBA95 /* AuthErrorEnum.swift in Sources */,
 				8A6793492F3AD4D40027D20A /* SceneDelegate.swift in Sources */,
+				8A70F4362F3C8B02003CBA95 /* Ext+UIViewController.swift in Sources */,
+				8A70F4152F3C69DC003CBA95 /* AuthService.swift in Sources */,
+				8A70F40C2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift in Sources */,
+				8A70F4312F3C75B8003CBA95 /* CustomError.swift in Sources */,
+				8A70F4102F3C6987003CBA95 /* LoginResponseModel.swift in Sources */,
 				8A67934A2F3AD4D40027D20A /* TechnohavenApp.xcdatamodeld in Sources */,
-				8A67934B2F3AD4D40027D20A /* AuthenticationViewController.swift in Sources */,
+				8A70F4002F3C5407003CBA95 /* LoginViewModel.swift in Sources */,
+				8A70F4202F3C6E1E003CBA95 /* UserModel.swift in Sources */,
+				8A70F3FB2F3C4EA0003CBA95 /* LoginViewController.swift in Sources */,
+				8A70F4292F3C7307003CBA95 /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +479,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A70F4232F3C6E3E003CBA95 /* TransactionModel.swift in Sources */,
+				8A70F4272F3C7307003CBA95 /* NetworkClient.swift in Sources */,
+				8A70F4112F3C6987003CBA95 /* LoginResponseModel.swift in Sources */,
+				8A70F3FC2F3C4EA0003CBA95 /* LoginViewController.swift in Sources */,
+				8A70F41F2F3C6E1E003CBA95 /* UserModel.swift in Sources */,
+				8A70F42F2F3C75B7003CBA95 /* CustomError.swift in Sources */,
+				8A70F4372F3C8B02003CBA95 /* Ext+UIViewController.swift in Sources */,
+				8A70F40E2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift in Sources */,
 				8A6793522F3AD4DC0027D20A /* TechnohavenAppTests.swift in Sources */,
+				8A70F4012F3C5407003CBA95 /* LoginViewModel.swift in Sources */,
+				8A70F4062F3C61FA003CBA95 /* AuthErrorEnum.swift in Sources */,
+				8A70F4162F3C69DC003CBA95 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,8 +498,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A70F4242F3C6E3E003CBA95 /* TransactionModel.swift in Sources */,
+				8A70F4022F3C5407003CBA95 /* LoginViewModel.swift in Sources */,
+				8A70F4302F3C75B8003CBA95 /* CustomError.swift in Sources */,
+				8A70F4122F3C6987003CBA95 /* LoginResponseModel.swift in Sources */,
+				8A70F4282F3C7307003CBA95 /* NetworkClient.swift in Sources */,
+				8A70F3FD2F3C4EA0003CBA95 /* LoginViewController.swift in Sources */,
 				8A6793562F3AD4DF0027D20A /* TechnohavenAppUITests.swift in Sources */,
+				8A70F4382F3C8B02003CBA95 /* Ext+UIViewController.swift in Sources */,
+				8A70F40D2F3C683F003CBA95 /* AuthenticationServiceProtocol.swift in Sources */,
+				8A70F4072F3C61FA003CBA95 /* AuthErrorEnum.swift in Sources */,
 				8A6793572F3AD4DF0027D20A /* TechnohavenAppUITestsLaunchTests.swift in Sources */,
+				8A70F4212F3C6E1E003CBA95 /* UserModel.swift in Sources */,
+				8A70F4142F3C69DC003CBA95 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +571,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.faysal.TechnohavenApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,6 +603,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.faysal.TechnohavenApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

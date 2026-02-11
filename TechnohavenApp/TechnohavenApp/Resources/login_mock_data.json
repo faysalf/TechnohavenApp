@@ -1,0 +1,19 @@
+{
+    "usersLogin": [
+        {
+            "id": "TH-Bank-User-1111",
+            "fullName": "Test User",
+            "email": "test@app.com",
+            "password": "123456",
+            "balance": 60000.0
+        },
+        {
+            "id": "TH-Bank-User-2222",
+            "fullName": "Faysal Ahmed",
+            "email": "faysal@gmail.com",
+            "password": "123456",
+            "balance": 20000000.0,
+        }
+    ]
+}
+
